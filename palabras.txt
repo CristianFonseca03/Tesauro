@@ -1,0 +1,22 @@
+Morfostasis:
+Organización:
+Parámetro:
+Permeabilidad:
+Proceso:
+Rango:
+Recursividad:
+Relación:
+Retroalimentación:
+Retroalimentación negativa:
+Retroalimentación positiva:
+Retroinput:
+Sinergia:
+Sistema:
+Sistemas (dinámica de):
+Sistema abierto:
+Sistema cerrado:
+Sistemas cibernéticos:
+Sistema trivial:
+Subsistema:
+Variedad:
+Variedad:

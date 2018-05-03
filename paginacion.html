@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang= "es">
+
+<head>
+
+ <meta charset="utf-8">
+ <title>Tesauro</title>
+ <meta name="viewport" content="widt=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+</head>
+
+<body>
+ 
+ <header>
+
+  <!-- Aca se agrega un nav para poder crear el menu de navegacion de la pagina -->
+
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation"> <!-- el inverse es para que cambien los colores y el static top es para que el menu se mantenga en la parte de arriba de la pagina -->
+
+   <div class="container">
+    <div class="navbar-header">
+    <!-- Esto es para hacer el boton que se muestra cuando el dispositivo es mediano-->
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion" aria-expended="false" aria-controls="navbar">
+      <span class="sr-only">Ocultar</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+     <a href="#" class="navbar-brand">Tesauro</a> <!-- Este es el titulo que va en el menu-->
+    </div>
+
+    <!-- Aqui se iniciara el menu-->
+
+    <div class="collapse navbar-collapse" id="navegacion"> <!-- El id que se agrega aqui debe de llevar el mismo nombre que se ingreso en el data-target que va en el boton que se muestra en dispositivos medianos-->
+
+     <ul class="nav navbar-nav">
+      
+      <li class="active"><a href="index.html">Inicio</a></li>
+
+      <li><a href="#">Paginacion</a></li>
+           </ul> 
+
+     <form action="" class="navbar-form navbar-right" role="search">
+      <div class="form-group">
+       <input type="text" class="form-control" placeholder="Buscar">
+      </div>
+      <button type="submit" class="btn btn-primary">
+       <span class="glyphicon glyphicon-search"></span>
+      </button>
+
+     </form>
+
+    </div>
+   </div>
+  </nav>
+ </header>
+
+ <section class="jumbotron">
+  <div class="container">
+   <h1>Paginacion</h1>
+   <p>Selecciona la letra que deseas ver</p>
+  </div>
+ </section>
+
+ <section class="main container">
+ 	<div class="row">
+ 		<section class="posts col-md-12">
+ 			<div class="miga-de-pan">
+ 				<ol class="breadcrumb">
+ 					<li><a href="#">A</a></li>
+ 					<li><a href="#">B</a></li>
+ 					<li><a href="#">C</a></li>
+ 					<li><a href="#">D</a></li>
+ 					<li><a href="#">F</a></li>
+ 					<li><a href="#">G</a></li>
+ 					<li><a href="#">H</a></li>
+ 					<li><a href="#">I</a></li>
+ 					<li><a href="#">J</a></li>
+ 					<li><a href="#">K</a></li>
+ 					<li><a href="#">L</a></li>
+ 					<li><a href="#">M</a></li>
+ 					<li><a href="#">N</a></li>
+ 					<li><a href="#">Ñ</a></li>
+ 					<li><a href="#">O</a></li>
+ 					<li><a href="#">P</a></li>
+ 					<li><a href="#">Q</a></li>
+ 					<li><a href="#">R</a></li>
+ 					<li><a href="#">S</a></li>
+ 					<li><a href="#">T</a></li>
+ 					<li><a href="#">U</a></li>
+ 					<li><a href="#">V</a></li>
+ 					<li><a href="#">W</a></li>
+ 					<li><a href="#">X</a></li>
+ 					<li><a href="#">Y</a></li>
+ 					<li><a href="#">Z</a></li>
+ 				</ol>
+ 			</div>
+ 			<article class="post clearfix">
+ 				<a href="#" class="thumb pull-left"></a>
+ 				<img src="img/img1.jpg">
+ 			</article>
+ 		</section>
+ 	</div>
+ </section>
+
+ <footer></footer>
+
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>﻿
